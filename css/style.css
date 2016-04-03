@@ -37,7 +37,6 @@ html, body{
  }
  .one-half, .one-third, .one-fourth {
    width:96%;
-   float:left;
    position:relative;
    min-height: 1px;
    margin:0 2% 20px;
@@ -48,6 +47,7 @@ html, body{
      width: 750px;
    }
  }
+
  @media (min-width: 992px) {
    .container {
      width: 970px;
@@ -72,6 +72,7 @@ html, body{
    font-size: 80px
    }
  }
+
 
  /* HEADER */
  header {
@@ -495,6 +496,8 @@ html, body{
    padding:20px;
  }
 
+/* Larger Mobile Devices */
+
  @media (min-width:460px) {
    .content {
      padding:1.5em 1%;
@@ -509,6 +512,8 @@ html, body{
      display:block;
    }
  }
+
+/* Tablets */
 
  @media (min-width:768px) {
    .content {
@@ -526,6 +531,8 @@ html, body{
    }
  }
 
+/* Laptops and Desktops */
+
   @media (min-width:992px) {
    .content {
      padding:1.5em 1%;
@@ -541,6 +548,7 @@ html, body{
      margin:0 1% 25px;
    }
  }
+
 
   .item-box > img {
    position:absolute;
@@ -574,3 +582,7 @@ html, body{
    line-height: 18px;
    margin:5px 0 0;
  }
+
+ li:active {
+   background-color: #3498DB; 
+}
